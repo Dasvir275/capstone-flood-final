@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-        origin:['https://capstone-flood-final.vercel.app', 'http://192.168.56.1:3000'],
+        origin:['https://capstone-flood-final.vercel.app'],
         credentials:true,
     })
 )
