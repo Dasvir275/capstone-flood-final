@@ -1,0 +1,37 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #f56342;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .updates {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #999;
+  }
+  

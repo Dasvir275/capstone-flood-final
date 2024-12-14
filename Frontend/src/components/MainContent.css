@@ -1,0 +1,542 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+:root {
+  --base: white;
+  --primary: royalblue;
+  --secondary: lightblue;
+  --greyshade: #6b6b6b;
+  --darkshade: black;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* Chrome and Safari */
+}
+
+.home_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+/* === Header - Start === */
+
+.header {
+  width: 100%;
+  height: 17vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  /* background-color: #0F4C9F; */
+  background-color: white;
+  /* box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3); */
+  box-shadow: 0 0 20px rgba(102, 163, 233, 0.6);
+  z-index: 1;
+}
+
+.header .header_left {
+  margin-left: 8vmin;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.header .header_left .header_left_image img {
+  width: 12vmin;
+  height: auto;
+  margin-right: 5vmin;
+}
+
+.header .header_left .header_left_titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.header .header_left .header_left_titles h1 {
+  font-size: 5.5vmin;
+  /* color: white; */
+  color: #0F4C9F;
+  margin-bottom: 0.5vmin;
+}
+
+.header .header_left .header_left_titles h3 {
+  color: #ff7243;
+  font-size: 3vmin;
+}
+
+.header .header_right {
+  margin-right: 6vmin;
+}
+
+.header .header_right img {
+  width: 40vmin;
+  height: auto;
+}
+
+/* === Header - End === */
+
+
+
+
+
+.main_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+
+/* === DischargeInput - Start === */
+
+.input_form {
+  /* border: 1px solid blue; */
+  padding: 6vmin;
+  width: 20%;
+}
+
+.input_form .weather_condition {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: left;
+  margin-bottom: 3vmin;
+  /* border: 1px solid red; */
+}
+
+.input_form .weather_condition label {
+  font-size: 2.25vmin;
+  font-weight: 450;
+  margin-bottom: 1.5vmin;
+  color: #171717;
+  letter-spacing: 0.5px;
+}
+
+.input_form .weather_condition select {
+  padding: 5px;
+  font-size: 2.15vmin;
+  border-radius: 3px;
+  border: 1.5px solid #171717;
+  color: #171717;
+}
+
+.input_form .weather_condition option {
+  padding: 5px;
+  font-size: 2.3vmin;
+  border-radius: 3px;
+  border: 1.5px solid #171717;
+  color: #171717;
+  letter-spacing: 0.5px;
+}
+
+.input_form .discharge_value_or_river_stage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: left;
+  /* border: 1px solid red; */
+}
+
+.input_form .discharge_value_or_river_stage label {
+  font-size: 2.25vmin;
+  font-weight: 450;
+  margin-bottom: 1.5vmin;
+  color: #171717;
+  letter-spacing: 0.5px;
+}
+
+.input_form .discharge_value_or_river_stage select {
+  padding: 5px;
+  font-size: 2.15vmin;
+  border-radius: 3px;
+  border: 1.5px solid #171717;
+  color: #171717;
+  letter-spacing: 0.5px;
+}
+
+.input_form .discharge_value_or_river_stage option {
+  padding: 5px;
+  font-size: 2.3vmin;
+  border-radius: 3px;
+  border: 1.5px solid #171717;
+  color: #171717;
+  letter-spacing: 0.5px;
+}
+
+.input_discharge_value {
+  margin-top: 3vmin;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_discharge_value input {
+  font-size: 2.1vmin;
+  font-weight: 400;
+  margin-bottom: 1.5vmin;
+  color: #171717;
+  letter-spacing: 0.5px;
+  margin-top: 1.5vmin;
+  padding: 0.7vmin;
+}
+
+.input_river_stage {
+  margin-top: 3vmin;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_river_stage input {
+  font-size: 2.1vmin;
+  font-weight: 400;
+  margin-bottom: 1.5vmin;
+  color: #171717;
+  letter-spacing: 0.5px;
+  margin-top: 1.5vmin;
+  padding: 0.7vmin;
+}
+
+.input_form .forecast_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin: 3vmin 0;
+}
+
+.input_form .forecast_buttons button {
+
+  width: 45%;
+  cursor: pointer;
+  border-radius: 2px;
+  /* background-color: var(--primary);
+  border: 2px solid var(--primary); */
+  background-color: #0F4C9F;
+  border: 2px solid #0F4C9F;
+  color: white;
+  justify-self: center;
+  padding: 1.3vmin 1vmin;
+  font-size: 2.05vmin;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease;
+
+}
+
+.input_form .forecast_buttons .forecast_flood {
+  background-color: #0F4C9F;
+  border: 2px solid #0F4C9F;
+}
+
+.input_form .forecast_buttons .forecast_flood:hover {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  box-shadow: 0 0 10px rgba(102, 133, 233, 0.6);
+  /* position: relative;
+  bottom: 1px;
+  transition: 0.3s ease; */
+}
+
+.input_form .forecast_buttons .reset_forecast {
+  background-color: #707070;
+  border: 2px solid #707070;
+}
+
+.input_form .forecast_buttons .reset_forecast:hover {
+  background-color: #808080;
+  border-color: #808080;
+  box-shadow: 0 0 10px rgba(137, 137, 137, 0.6);
+}
+
+/* === DischargeInput - End === */
+
+.map_container {
+  width: 80%;
+  height: 90vh;
+  /* border: 1px solid red; */
+}
+
+/* Ensures the main container takes the full height of the screen */
+.app-container {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 100px; /* Height of the Chat component */
+}
+
+/* Style for the Chat component */
+.app-container .chat {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f8; /* Adjust the background color as needed */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add shadow to give some depth */
+  z-index: 1000;
+}
+
+/* Ensure other content is above the Chat component */
+.app-container .home-page {
+  padding-bottom: 100px; /* Make space for the fixed Chat component */
+}
+html, body {
+    overflow-x: hidden;
+}
+.codeblock1 {
+    width: 372.95px;
+    height: 257.05px;
+    border-radius: 100%;
+    left: calc(50% - 372.95px / 2 - 76.53px);
+    top: calc(50% - 257.05px / 2 - 47.47px);
+    background: linear-gradient(
+      123.77deg,
+      #8a2be2 -6.46%,
+      #ffa500 59.04%,
+      #f8f8ff 124.53%
+    );
+    opacity: 0.2;
+    filter: blur(34px);
+    transform: matrix(1, 0, -0.03, 1, 0, 0);
+  }
+.codeblock2 {
+    position: absolute;
+    width: 372.95px;
+    height: 257.05px;
+    left: calc(50% - 372.95px / 2 - 76.53px);
+    top: calc(50% - 257.05px / 2 - 47.47px);
+    border-radius: 100%;
+    background: linear-gradient(
+      118.19deg,
+      #1fa2ff -3.62%,
+      #12d8fa 50.44%,
+      #a6ffcb 104.51%
+    );
+    opacity: 0.2;
+    filter: blur(34px);
+    transform: matrix(1, 0, -0.03, 1, 0, 0);
+  }
+
+/*https://10015.io/tools/css-loader-generator*/
+.spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 9px solid #f1f2ff;
+  animation: spinner-bulqg1 0.8s infinite linear alternate,
+    spinner-oaa3wk 1.6s infinite linear;
+}
+
+.form-style {
+  @apply rounded-lg bg-richblack-700 p-3 text-[16px] leading-[24px] text-richblack-5 shadow-[0_1px_0_0] shadow-white/50 placeholder:text-richblack-400 focus:outline-none;
+}
+
+  
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #afb2bf;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 3px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000814;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #afb2bf;
+  border-radius: 10px;
+  visibility: hidden;
+}
+
+*:active::-webkit-scrollbar-thumb,
+*:focus::-webkit-scrollbar-thumb,
+*:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+/* Hide default styling of details/summary */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.code-border {
+  border: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00);
+  background: linear-gradient(
+    111.93deg,
+    rgba(14, 26, 45, 0.24) -1.4%,
+    rgba(17, 30, 50, 0.38) 104.96%
+  );
+  /* backdrop-filter: blur(26px); */
+}
+
+@keyframes spinner-bulqg1 {
+  0% {
+    clip-path: polygon(50% 50%, 0 0, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+  }
+
+  12.5% {
+    clip-path: polygon(
+      50% 50%,
+      0 0,
+      50% 0%,
+      100% 0%,
+      100% 0%,
+      100% 0%,
+      100% 0%
+    );
+  }
+
+  25% {
+    clip-path: polygon(
+      50% 50%,
+      0 0,
+      50% 0%,
+      100% 0%,
+      100% 100%,
+      100% 100%,
+      100% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      50% 50%,
+      0 0,
+      50% 0%,
+      100% 0%,
+      100% 100%,
+      50% 100%,
+      0% 100%
+    );
+  }
+
+  62.5% {
+    clip-path: polygon(
+      50% 50%,
+      100% 0,
+      100% 0%,
+      100% 0%,
+      100% 100%,
+      50% 100%,
+      0% 100%
+    );
+  }
+
+  75% {
+    clip-path: polygon(
+      50% 50%,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      50% 100%,
+      0% 100%
+    );
+  }
+
+  100% {
+    clip-path: polygon(
+      50% 50%,
+      50% 100%,
+      50% 100%,
+      50% 100%,
+      50% 100%,
+      50% 100%,
+      0% 100%
+    );
+  }
+}
+
+@keyframes spinner-oaa3wk {
+  0% {
+    transform: scaleY(1) rotate(0deg);
+  }
+
+  49.99% {
+    transform: scaleY(1) rotate(135deg);
+  }
+
+  50% {
+    transform: scaleY(-1) rotate(0deg);
+  }
+
+  100% {
+    transform: scaleY(-1) rotate(-135deg);
+  }
+}
+
+/* For conditional coloring of icons in dashboard sidebar */
+.active-icon {
+  fill: #ffd60a !important;
+  color: #ffd60a !important;
+}
+
+.inactive-icon {
+  fill: #838894;
+  color: #838894;
+}
+
+/* Buttons */
+.yellowButton {
+  @apply cursor-pointer rounded-md bg-yellow-50 px-[20px] py-[8px] font-semibold text-richblack-900;
+}
+
+/* Swiper CSS Starts */
+/* .swiper {
+  max-width: 1200px;
+  width: 91.66%;
+  height: 185px;
+  margin: 50px 0px;
+} */
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+/* .swiper-slide {
+  @apply bg-richblack-800 text-richblack-25 p-3 text-[14px];
+} */
+/* Swiper CSS Ends */
+
+.blackButton {
+  @apply cursor-pointer rounded-md bg-richblack-800 px-[20px] py-[8px] font-semibold text-richblack-5;
+}
+.lable-style {
+  @apply text-[14px] text-richblack-5;
+}
+
+.section_heading {
+  @apply text-2xl font-bold text-richblack-5 lg:text-4xl;
+}

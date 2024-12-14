@@ -1,0 +1,53 @@
+/* Receipt.css */
+.receipt {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .receipt h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .receipt p {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .receipt strong {
+    color: #333;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .receipt {
+      padding: 15px;
+    }
+  
+    .receipt h2 {
+      font-size: 20px;
+    }
+  
+    .receipt p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

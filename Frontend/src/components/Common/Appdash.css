@@ -1,0 +1,172 @@
+.paras {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* border: 2px solid red; */
+  }
+  
+  .Appi-header {
+    min-height: 100vh;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative; /* Added this to enable absolute positioning */
+  }
+  
+  .headlogo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 45px;
+    width: auto;
+    padding: 0 7px;
+  }
+  
+  .navbar-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* border: 2px solid red; */
+    /* font-size: 1.3em; */
+  }
+  
+  .navbar-list li {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: whitesmoke;
+  }
+  
+  .header-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    width: 100%;
+    /* padding: 10px 20px; */
+    background-color: #000814;
+    color: #fff;
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .App-logo {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    width: auto;
+  }
+
+
+  .dashboardParas {
+   
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .pie-chart-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .admin-box {
+    flex: 1;
+    font-size: larger;
+    padding: 20px;
+    background-color: #ececec;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    max-width: 600px;
+    backface-visibility: ;
+    text-align: left;
+    color: green;
+    position: relative;
+  }
+  .pie-chart-container {
+    background-color: rgba(
+      249,
+      249,
+      249,
+      0.9
+    ); /* Light background color with reduced transparency */
+    padding: 20px;
+    border-radius: 10px; /* Optional: adds rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+  }
+  
+  .admin-portal {
+    flex: 1;
+    font-size: larger;
+    padding: 20px;
+    background-image: url("https://media.istockphoto.com/id/539001564/photo/rajwada-palace-indore.jpg?b=1&s=170667a&w=0&k=20&c=UOqUJpUb4ewrsEyOAFzHK2NnA_H_6FYp5NwrNAAh_o8=");
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    max-width: 600px;
+    text-align: left;
+    color: green;
+    position: relative; /* Added this to position content correctly */
+  }
+  
+  .filters {
+    display: flex;
+    color: rgb(186, 7, 7);
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filters label {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    width: 48%;
+  }
+  
+  .filters select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .report {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .report p {
+    margin: 10px 0;
+  }
+  
+
+  .parasheader{
+    background-image: url("https://media.istockphoto.com/id/668729904/photo/jahaz-mahal-ship-palace-in-mandu-india.jpg?s=2048x2048&w=is&k=20&c=Y60B37bnmlXn7To7Z-9F3wCfwS3-crCFnczIpUv3ev4=");
+    background-size: cover;
+  }
+
+  .paras {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* border: 2px solid red; */
+    
+    background-image: url("https://media.istockphoto.com/id/668729904/photo/jahaz-mahal-ship-palace-in-mandu-india.jpg?s=2048x2048&w=is&k=20&c=Y60B37bnmlXn7To7Z-9F3wCfwS3-crCFnczIpUv3ev4=");
+    /* background-position: f; */
+    background-size: cover;
+  }
