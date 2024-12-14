@@ -4,7 +4,7 @@ const User=require("../models/User");
 const OTP=require("../models/OTP");
 const Profile=require("../models/Profile");
 const otpGenerator=require("otp-generator");
-const bcrypt=require('bcryptjs');
+//const bcrypt=require('bcryptjs');
 const mailSender = require("../utils/mailSender");
 const jwt=require("jsonwebtoken");
 require("dotenv").config();
@@ -111,7 +111,7 @@ else if(otp!==recentOtp[0].otp){
     })
 }
 //hash password
-const hashedPassword=await bcrypt.hash(password,10);
+//const hashedPassword=await bcrypt.hash(password,10);
 //entry create in DB
 const profileDetails=await Profile.create({
     gender:null,
@@ -124,7 +124,7 @@ const user=await User.create({
     lastName,
     email,
     contactNumber,
-    password:hashedPassword,
+    password:password,
     accountType:accountType,
     additionalDetails:profileDetails._id,
    image:`https://api.dicebear.com/5.x/initials/svg?seed=${firstName} ${lastName}`,
@@ -166,7 +166,7 @@ if(!user){
     })
 }
 
-if(await bcrypt.compare(password,user.password)){
+if(password===user.password){
     const payload={
         email:user.email,
         id:user._id,
@@ -205,7 +205,7 @@ return res.status(500).json({
     }
 }
 
-exports.changePassword=async(req,res)=>{
+/*exports.changePassword=async(req,res)=>{
     //get data from req body
     //get old password,new password,confirm password
     //validation
@@ -256,5 +256,5 @@ exports.changePassword=async(req,res)=>{
 	}
 }
 
-
+*/
 
