@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { GoogleMap, LoadScript, GroundOverlay } from "@react-google-maps/api";
 import './MainContent.css';
 import Navbar from "./Navbar";
-import Searchapi from "./Common/Searchapi";
 const MainContent = () => {
   const [imageUrl, setImageUrl] = useState(null);
   const [dischargeOrRiverStage, setDischargeOrRiverStage] = useState("");
@@ -78,7 +77,6 @@ const MainContent = () => {
   return (
     <div className="main_content">
     <Navbar/>
-    <Searchapi/>
       <div className="input_form">
         <div className="discharge_value_or_river_stage">
           <label>Enter Discharge Value / River Stage *</label>
