@@ -26,11 +26,8 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(
-  cors({
-      origin:['https://capstone-flood-final.vercel.app'],
-      credentials:true,
-  })
-)
+  cors()
+);
 app.use(
     fileUpload({
         useTempFiles:true,

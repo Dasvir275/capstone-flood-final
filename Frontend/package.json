@@ -58,5 +58,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.2.7"
-  }
+  },
+  "proxy": "https://capstone-flood-final-2.onrender.com"
 }
