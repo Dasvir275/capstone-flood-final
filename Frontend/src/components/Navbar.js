@@ -34,8 +34,9 @@ const Navbar = () => {
           </li>
           <li>
             <a href="https://weather-live-snowy.vercel.app/">
-            Weather Forecast
+            Weather Forecasted
             </a>
+            
           </li>
           <li>
             <NavLink to="/rescue" onClick={closeNavbar}>
