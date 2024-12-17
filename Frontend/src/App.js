@@ -1,5 +1,6 @@
 
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react"
 import {Route,Routes} from "react-router-dom"
 import Home from "./pages/Home";
 import Login from "./pages/Login"
@@ -43,6 +44,7 @@ function App() {
   };
   return (
     <div className="w-screen min-h-screen  bg-richblack-900 flex  flex-col font-inter">
+    <Analytics/>
     <Navbar/>
     
 <Routes>  
