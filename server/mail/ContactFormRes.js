@@ -75,26 +75,33 @@ exports.contactUsEmail = (
     <body>
         <div class="container">
             <a href="https://capstone-flood-final.vercel.app"><img class="logo"
-                    src="https://drive.google.com/file/d/115ZKe0IKmHlmbDwIIEFvha41pjCrD2J3/view?usp=sharing" alt="MATSYA PORTAL"></a>
+                    src="https://www.ias4sure.com/wp-content/uploads/2017/03/ias4sure.com-Central-Water-Commission-300x295.png" alt="MATSYA PORTAL"></a>
             <div class="message">Contact Form Confirmation</div>
             <div class="body">
                 <p>Dear ${firstname} ${lastname},</p>
-                <p>Dear Valued User,
-Thank you for reaching out to us during this critical time. We understand how stressful such situations can be, but please rest assured that **help is already on the way.**  
-
-The **National Disaster Response Force (NDRF)** team has been notified of your location and will promptly assist with evacuation and safety measures. 
-Your well-being is our top priority, and our coordinated response team is working tirelessly to ensure you are safe and secure.  
-
-**What to Do Now:**  
-- Stay calm and follow any local safety guidelines.  
-- Keep essential items like identification, water, and first-aid kits close by.  
-- Trust the NDRF personnel when they arrive—they are fully equipped to handle such emergencies.  
-
-Remember, you are not alone. Together, we will get through this.  
-
-Stay safe and stay strong,  
-**The Flood Rescue Team**  
-                </p>
+               <p style="color: #333; font-size: 18px; line-height: 1.6;">
+        <span style="color: #e63946; font-weight: bold;">Dear Valued User,</span>  
+        <br><br>
+        Thank you for reaching out to us during this critical time. We understand how stressful such situations can be, but please rest assured that  
+        <span style="color: #1d3557; font-weight: bold;">help is already on the way.</span>  
+        <br><br>
+        The <span style="color: #457b9d; font-weight: bold;">National Disaster Response Force (NDRF)</span> team has been notified of your location and will promptly assist with evacuation and safety measures.  
+        <br><br>
+        <span style="color: #2a9d8f; font-weight: bold;">Your well-being is our top priority,</span> and our coordinated response team is working tirelessly to ensure you are safe and secure.  
+        <br><br>
+        <span style="color: #e76f51; font-size: 20px; font-weight: bold;">What to Do Now:</span>  
+        <ul style="color: #333;">
+            <li style="margin-bottom: 8px;">Stay calm and follow any <span style="color: #f4a261;">local safety guidelines.</span></li>
+            <li style="margin-bottom: 8px;">Keep essential items like <span style="color: #f4a261;">identification, water,</span> and <span style="color: #f4a261;">first-aid kits</span> close by.</li>
+            <li>Trust the <span style="color: #457b9d;">NDRF personnel</span> when they arrive—they are fully equipped to handle such emergencies.</li>
+        </ul>  
+        <br>
+        <span style="color: #2a9d8f; font-weight: bold;">Remember, you are not alone.</span> Together, we will get through this.  
+        <br><br>
+        <span style="color: #e63946; font-weight: bold;">Stay safe and stay strong,</span>  
+        <br>
+        <span style="color: #1d3557; font-size: 20px; font-weight: bold;">The Flood Rescue Team</span>  
+    </p>
                 <p>Here are the details you provided:</p>
                 <p>Name: ${firstname} ${lastname}</p>
                 <p>Email: ${email}</p>
