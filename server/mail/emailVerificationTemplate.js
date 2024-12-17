@@ -66,19 +66,19 @@ const otpTemplate = (otp) => {
 	
 	<body>
 		<div class="container">
-			<a href="https://studynotion-edtech-project.vercel.app"><img class="logo"
-					src="https://in.images.search.yahoo.com/search/images;_ylt=Awrx.7GIT6Vmzp8IqYi7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=municipal+indore&fr2=piv-web&type=E210IN885G0&fr=mcafee#id=2&iurl=https%3A%2F%2Fimages.assettype.com%2Ffreepressjournal%2F2019-07%2Fac576416-2024-4ef8-b083-5cd6a2f93339%2FIndore_MC.jpg&action=click" alt="IMC INDORE"></a>
+			<a href="https://capstone-flood-final.vercel.app"><img class="logo"
+					src="https://drive.google.com/file/d/115ZKe0IKmHlmbDwIIEFvha41pjCrD2J3/view" alt="MATSYA ADMIN"></a>
 			<div class="message">OTP Verification Email</div>
 			<div class="body">
 				<p>Dear User,</p>
-				<p>Thank you for registering with Municipal corporation digitial platform. To complete your registration, please use the following OTP
+				<p>Thank you for registering with Matsya portal digitial platform. To complete your registration, please use the following OTP
 					(One-Time Password) to verify your account:</p>
 				<h2 class="highlight">${otp}</h2>
 				<p>This OTP is valid for 5 minutes. If you did not request this verification, please disregard this email.
 				Once your account is verified, you will have access to our revnue managment and its features.</p>
 			</div>
 			<div class="support">If you have any questions or need assistance, please feel free to reach out to us at <a
-					href="mailto:info@municipalindore.com">info@municipalindore.com</a>. We are here to help!</div>
+					href="mailto:info@matsyaportal.com">info@matsyaportal.com</a>. We are here to help!</div>
 		</div>
 	</body>
 	

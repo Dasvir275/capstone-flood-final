@@ -74,12 +74,26 @@ exports.contactUsEmail = (
     
     <body>
         <div class="container">
-            <a href="https://studynotion-edtech-project.vercel.app"><img class="logo"
-                    src="https://img.saurenergy.com/2022/09/news-2.png" alt="Muncipal Logo"></a>
+            <a href="https://capstone-flood-final.vercel.app"><img class="logo"
+                    src="https://drive.google.com/file/d/115ZKe0IKmHlmbDwIIEFvha41pjCrD2J3/view?usp=sharing" alt="MATSYA PORTAL"></a>
             <div class="message">Contact Form Confirmation</div>
             <div class="body">
                 <p>Dear ${firstname} ${lastname},</p>
-                <p>Thank you for contacting us. We have received your message and will respond to you as soon as possible.
+                <p>Dear Valued User,
+Thank you for reaching out to us during this critical time. We understand how stressful such situations can be, but please rest assured that **help is already on the way.**  
+
+The **National Disaster Response Force (NDRF)** team has been notified of your location and will promptly assist with evacuation and safety measures. 
+Your well-being is our top priority, and our coordinated response team is working tirelessly to ensure you are safe and secure.  
+
+**What to Do Now:**  
+- Stay calm and follow any local safety guidelines.  
+- Keep essential items like identification, water, and first-aid kits close by.  
+- Trust the NDRF personnel when they arrive—they are fully equipped to handle such emergencies.  
+
+Remember, you are not alone. Together, we will get through this.  
+
+Stay safe and stay strong,  
+**The Flood Rescue Team**  
                 </p>
                 <p>Here are the details you provided:</p>
                 <p>Name: ${firstname} ${lastname}</p>
@@ -89,7 +103,7 @@ exports.contactUsEmail = (
                 <p>We appreciate your interest and will get back to you shortly. </p>
             </div>
             <div class="support">If you have any further questions or need immediate assistance, please feel free to reach
-                out to us at <a href="mailto:info@municipalindore.com">info@MUNCIPALINDORE.com</a>. We are here to help!</div>
+                out to us at <a href="mailto:info@matsyaportal.com">info@Matsyaportal.com</a>. We are here to help!</div>
         </div>
     </body>
     

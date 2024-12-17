@@ -55,8 +55,7 @@ exports.passwordUpdated = (email, name) => {
     
     <body>
         <div class="container">
-            <a href="https://studynotion-edtech-project.vercel.app"><img class="logo"
-                    src="https://in.images.search.yahoo.com/search/images;_ylt=Awrx.7GIT6Vmzp8IqYi7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=municipal+indore&fr2=piv-web&type=E210IN885G0&fr=mcafee#id=2&iurl=https%3A%2F%2Fimages.assettype.com%2Ffreepressjournal%2F2019-07%2Fac576416-2024-4ef8-b083-5cd6a2f93339%2FIndore_MC.jpg&action=click" alt="StudyNotion Logo"></a>
+            <a href="https://drive.google.com/file/d/115ZKe0IKmHlmbDwIIEFvha41pjCrD2J3/view" alt="MATSYA Logo"></a>
             <div class="message">Password Update Confirmation</div>
             <div class="body">
                 <p>Hey ${name},</p>
@@ -66,7 +65,7 @@ exports.passwordUpdated = (email, name) => {
             </div>
             <div class="support">If you have any questions or need further assistance, please feel free to reach out to us
                 at
-                <a href="mailto:info@municipalindore.com">info@muncipalindore.com</a>. We are here to help!
+                <a href="mailto:info@matsyaportal.com">info@matsyaportal.com</a>. We are here to help!
             </div>
         </div>
     </body>
