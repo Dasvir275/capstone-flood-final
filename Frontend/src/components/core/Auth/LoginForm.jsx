@@ -26,7 +26,7 @@ function LoginForm() {
   }
   const fetchUserDetails = async (email) => {
     try {
-      const response = await axios.post('http://localhost:4000/api/user-details', { email })
+      const response = await axios.post('https://capstone-flood-final-2.onrender.com/api/user-details', { email })
       setUserDetails(response.data)
     } catch (error) {
       console.error('Error fetching user details:', error)
