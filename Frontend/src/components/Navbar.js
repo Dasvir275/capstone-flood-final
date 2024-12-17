@@ -33,9 +33,9 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/weather" onClick={closeNavbar}>
-              Weather Forecast
-            </NavLink>
+            <a href="https://weather-live-snowy.vercel.app/">
+            Weather Forecast
+            </a>
           </li>
           <li>
             <NavLink to="/rescue" onClick={closeNavbar}>
