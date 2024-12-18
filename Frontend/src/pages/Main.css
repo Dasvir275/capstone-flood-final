@@ -23,6 +23,10 @@
   .homepage-content {
     z-index: 2;
   }
+h1{
+    color:white;
+    font-size:bold;}
+
   
   .homepage h1 {
     font-size: 3rem;
