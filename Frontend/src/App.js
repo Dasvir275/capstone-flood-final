@@ -36,6 +36,7 @@ import Main from "./pages/Main";
 import Sample from "./components/Common/Sample";
 import ImageSlider3 from "./components/ImageSlider3";
 import ChatRedirect from "./components/Chatredirect";
+import Liveupdate from "./components/Liveupdate";
 //import Marquee from "./components/Common/Marque";
 function App() {
   let obj={
@@ -57,6 +58,7 @@ function App() {
   <Route path="/about" element={<About/>}/>
   <Route path="/contact" element={<Contact/>}/>
   <Route path="/propertytax" element={<Propertytax/>}/>
+  <Route path="/liveupdate" element={<Liveupdate/>}/>
   <Route path="/paypropertytax" element={<PayPropertyTax/>}/>
   <Route path="/success" element={<Success/>}/>
   <Route path="/cancel" element={<Cancel/>}/>
@@ -97,3 +99,4 @@ function App() {
 }
 
 export default App;
+
