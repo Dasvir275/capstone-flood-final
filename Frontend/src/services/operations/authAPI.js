@@ -109,7 +109,7 @@ export function login(email, password, navigate) {
         navigate("/main")
       }
       else{
-        navigate("/liveupdate")
+         window.location.href = "https://weather-live-snowy.vercel.app";
       }
     } catch (error) {
       console.log("LOGIN API ERROR............", error)
