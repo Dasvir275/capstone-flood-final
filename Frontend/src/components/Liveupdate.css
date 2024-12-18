@@ -18,16 +18,18 @@
   margin: 0;
   padding: 0;
   display: flex;
+  color:black;
 }
 
 .nav-item {
   margin: 0 15px;
+  color:black;
 }
 
 .nav-item a,
 .button-link {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: bold;
   background-color: #005bb5;
   padding: 10px 20px;
