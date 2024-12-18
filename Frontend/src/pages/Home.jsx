@@ -129,7 +129,6 @@ Get the Skills you need for a <HighlightText text={"job that is in demand"}/>
 </div> */}
 
 {/* <h2 className='text-center text-4xl font-semibold mt-10'>review from other Learners</h2> */}
-<Footer/>
 
 </div>
   )
