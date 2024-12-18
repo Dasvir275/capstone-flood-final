@@ -24,11 +24,11 @@ function Home() {
 </Link>
 
 <div className='text-center text-4xl font-semibold mt-7'>
-Say goodbye to traditional flood response methods. Our system automates flood mapping and response strategies, ensuring accurate
+Say goodbye to traditional flood response methods. Our system automates flood Indundation and response strategies, ensuring accurate
 <HighlightText text={"real-time updates on flood predictions, water levels, and emergency alerts"}/>
 </div>
 <div className="mt-4 w-[90%] text-center text-lg font-bold text-richblack-300">
-Access critical flood information anytime, anywhere. With our user-friendly interface and integrated chatbot, finding answers to your flood-related queries and managing response strategies has never been easier.
+Access critical flood information anytime, anywhere. With our user-friendly interface and integrated chatbot.
         </div>
 <div className='flex flex-row gap-7 mt-8'>
 <Button active={true}><Link to="/chat">Explore Chatbot</Link></Button>
