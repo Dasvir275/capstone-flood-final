@@ -5,8 +5,9 @@ function Login() {
   return (
     <Template
       title="Welcome Back"
-      description1="Your Gateway to Secure"
-      description2="and Hassle-Free Revenue Collection and Tax Management"
+      description1="Your Gateway to Flood Indundation level,Alert and Rescue System"
+      description2="Efficient Flood chatbot system which automatically alert on danger level of Flood
+"
       image={loginImg}
       formType="login"
     />
