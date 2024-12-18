@@ -109,7 +109,7 @@ export function login(email, password, navigate) {
         navigate("/main")
       }
       else{
-         window.location.href = "https://weather-live-snowy.vercel.app";
+         window.location.href = "https://ffs.india-water.gov.in/#/"
       }
     } catch (error) {
       console.log("LOGIN API ERROR............", error)
