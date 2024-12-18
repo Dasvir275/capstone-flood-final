@@ -97,7 +97,7 @@ const Footer = () => {
              <div className = "text-center">Shivam Aggarwal(Machine Learning +Deep Learning +Gis)</div>
             <div className = "text-center">Jaskaran Singh(Frontoed Developer +Design+Gis)</div>
             <div className = "text-center">Devansh Singh(Ml)</div>
-                      <div className = "text-center">Once Kaur--{Frontoned Developer})</div>
+                      <div className = "text-center">Once Kaur(Frontoned Developer)</div>
 
         </div>
       </div>
