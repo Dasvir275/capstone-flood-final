@@ -2,9 +2,9 @@ export const FooterLink2 = [
   {
     title: "Services",
     links: [
-      { title: "Bill tracking", link: "https://imc-egov.whitesharkindia.com" },
+      { title: "Real Time Live Weather", link: "https://weather-live-snowy.vercel.app" },
       {
-        title:"Download 311 app",
+        title:"Download Ndrf Rescue app",
         link:"https://play.google.com/store/apps/details?id=com.everythingcivic.indore&hl=en_IN&gl=US&pli=1"
       }
     
@@ -15,7 +15,7 @@ export const FooterLink2 = [
     title: "Contacts",
     links: [
         {title:`Address
-Narayan Singh Saput Marg,Shivaji Market,Nagar Nigan Square, Indore, Madhya Pradesh 452007`, link: "/"},
+Narayan Singh Saput Marg,Shivaji Market,Nagar Nigan Square, Mumbai,centrall Water Commision`, link: "/"},
 {
 title:`HELPLINE : 104 , 1075 , 0755-2704201,2441419, 4926892`
 }
