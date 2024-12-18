@@ -1,30 +1,23 @@
-import Chatbot from 'react-chatbot-kit';
 import 'react-chatbot-kit/build/main.css';
-import config from './Chatbot/config';
-import ActionProvider from './Chatbot/ActionProvider';
-import MessageParser from './Chatbot/MessageParser';
-import './Chat.css'
+import './Chat.css';
 import { useState } from 'react';
+
 function Chat() {
-  let obj={
-    name:'dasvir',
-    rollno:'123'
-  };
   const [isVisible, setIsVisible] = useState(false);
+
   const toggleChatbot = () => {
+    if (!isVisible) {
+      // Redirect to chatbot URL when opening
+      window.location.href = "https://cdn.botpress.cloud/webchat/v2/shareable.html?botId=a0531798-3a04-4821-857d-8be74c526320";
+    } else {
+      // Redirect back when closing
+      window.location.href = "https://capstone-flood-final.vercel.app"; // Replace with your desired fallback URL
+    }
     setIsVisible(!isVisible);
   };
+
   return (
     <>
-      {isVisible && (
-        <div className="chatbot-container">
-          <Chatbot
-            config={config}
-            messageParser={MessageParser}
-            actionProvider={ActionProvider}
-          />
-        </div>
-      )}
       <button className="chatbot-toggle" onClick={toggleChatbot}>
         {isVisible ? 'Close Bot' : 'Chat Bot'}
       </button>
