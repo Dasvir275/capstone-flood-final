@@ -1,5 +1,5 @@
 import "./Liveupdate.css";
-import cwcImage from "../assets/images/patiala2.jpeg"; // Place the cwc image in the src folder
+import cwcImage from "../images/patiala2.jpeg"; // Place the cwc image in the src folder
 //dasvir
 function Liveupdate() {
   return (
