@@ -2,7 +2,7 @@ import React from "react";
 import { FooterLink2 } from "../../data/footer-links";
 import { Link } from "react-router-dom";
 // Images
-import Logo from "../../assets/Logo/newlogo.png";
+import Logo from "../images/cwc.gif";
 // Icons
 import { FaFacebook, FaGoogle, FaTwitter, FaYoutube } from "react-icons/fa";
 const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
@@ -92,7 +92,12 @@ const Footer = () => {
                 </div>
             </div>
 
-          <div className = "text-center">Made with ❤️ By INVINCIBLE774</div>
+          <div className = "text-center">Made with ❤️ By Capstone Teams</div>
+           <div className = "text-center">Dasvir Singh(Full Stack +Gis)</div>
+             <div className = "text-center">Shivam Aggarwal(Machine Learning +Deep Learning +Gis)</div>
+            <div className = "text-center">Jaskaran Singh(Frontoed Developer +Design+Gis)</div>
+            <div className = "text-center">Devansh Singh(Ml)</div>
+                      <div className = "text-center">Once Kaur--{Frontoned Developer})</div>
 
         </div>
       </div>
