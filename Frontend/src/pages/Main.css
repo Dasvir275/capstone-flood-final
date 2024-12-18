@@ -23,14 +23,12 @@
   .homepage-content {
     z-index: 2;
   }
-h1{
-    color:white;
-    font-size:bold;}
 
   
   .homepage h1 {
     font-size: 3rem;
     margin-bottom: 20px;
+       color:white;
   }
   
   .homepage p {
@@ -67,6 +65,7 @@ h1{
   @media (max-width: 768px) {
     .homepage h1 {
       font-size: 2.5rem;
+             color:white;
     }
   
     .homepage p {
@@ -82,6 +81,7 @@ h1{
   @media (max-width: 480px) {
     .homepage h1 {
       font-size: 2rem;
+             color:white;
     }
   
     .homepage p {
