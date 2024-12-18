@@ -1,6 +1,5 @@
 import "./Liveupdate.css";
 import cwcImage from "../images/patiala2.jpeg"; // Place the cwc image in the src folder
-
 function Liveupdate() {
   return (
     <div className="live">
